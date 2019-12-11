@@ -5,12 +5,12 @@ body {
   width: 100%;
 }
 
-.container-fluid {
-  height: 100vh;
+nav {
+  min-height: 10vh;
 }
 
-.container-fluid nav {
-  height: 10vh;
+.container-fluid {
+  height: 100vh;
 }
 
 .brand {
@@ -75,7 +75,6 @@ body {
 
 .container .text-center p {
   text-align: center;
-  font: Regular 16px/28px Heebo;
   letter-spacing: 0;
   color: #66686a;
   opacity: 1;
@@ -140,62 +139,67 @@ body {
   border-bottom: 1px solid #45b5e6;
 }
 
+.container .image {
+  text-align: center;
+}
+
 .container .image img {
-  width: 100%;
-  height: 65vh;
+  width: 360px;
+  height: 80vh;
 }
 
-.container .branding h5 {
+.container .image-content {
+  height: 80vh;
+}
+
+.container .image-content .branding h5 {
   color: #535b6c;
   opacity: 1;
   font-weight: bolder;
 }
 
-.container .branding h5 img {
+.container .image-content .branding h5 img {
   width: 30px;
   margin-right: 10px;
 }
 
-.container .branding p {
-  font: Regular 14px/24px Heebo;
+.container .image-content .branding p {
   color: #66686a;
   opacity: 1;
   text-align: left;
   font-size: 13px;
 }
 
-.container .digital h5 {
+.container .image-content .digital h5 {
   color: #535b6c;
   opacity: 1;
   font-weight: bolder;
 }
 
-.container .digital h5 img {
+.container .image-content .digital h5 img {
   width: 30px;
   margin-right: 10px;
 }
 
-.container .digital p {
-  font: Regular 14px/24px Heebo;
+.container .image-content .digital p {
   color: #66686a;
   opacity: 1;
   text-align: left;
   font-size: 13px;
 }
 
-.container .web h5 {
+.container .image-content .web h5 {
   color: #535b6c;
   opacity: 1;
   font-weight: bolder;
 }
 
-.container .web h5 img {
+.container .image-content .web h5 img {
   width: 30px;
   margin-right: 10px;
 }
 
-.container .web p {
-  font: Regular 14px/24px Heebo;
+.container .image-content .web p {
   color: #66686a;
   opacity: 1;
   text-align: left;
@@ -211,12 +215,32 @@ body {
 .container .learn button {
   border-radius: 30px;
   background: none;
-  font: Medium 15px/26px Heebo;
   color: #4489ff;
   opacity: 1;
   border: 2px solid #4489ff;
   padding: 10px 35px;
   font-size: 13px;
+}
+
+.Services {
+  letter-spacing: 1.33px;
+  color: #4489ff;
+  opacity: 1;
+  text-align: center;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 0;
+  color: #535b6c;
+  opacity: 1;
+}
+
+p {
+  letter-spacing: 0;
+  color: #66686a;
+  opacity: 1;
 }
 
 .section-3 {
@@ -315,5 +339,51 @@ footer form button {
   opacity: 1;
   height: 50px;
   border: none;
+}
+
+@media screen and (max-width: 991px) {
+  footer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-image {
+    display: none;
+  }
+  .hero-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .section-3 .col-13 {
+    -ms-flex: 60%;
+    -webkit-box-flex: 60%;
+            flex: 60%;
+    text-align: center;
+    padding: 60px 4px;
+  }
+  .section-3 .col-13 img {
+    width: 60%;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section-3 .image-center {
+    z-index: 0;
+    height: 60vh;
+  }
+  .section-3 .image-center img {
+    margin-top: 0;
+    width: 60%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  footer button {
+    margin-top: 10px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
