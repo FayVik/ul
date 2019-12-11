@@ -82,18 +82,18 @@ nav {
 
 .content .image {
   text-align: center;
-  min-height: 80vh;
-  padding-left: 40px;
+  min-height: 60vh;
+  text-align: center;
 }
 
 .content .image img {
-  width: 100%;
-  min-height: 70vh;
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .content .image-content {
-  min-height: 80vh;
-  padding-right: 60px;
+  min-height: 60vh;
 }
 
 .content .image-content .branding h5 {
@@ -317,7 +317,7 @@ p {
 
 .logos-bank {
   margin-top: 60px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .logos-bank .col-lg-2 img {
@@ -387,9 +387,6 @@ footer form button {
   footer {
     text-align: center;
   }
-  .image img {
-    height: 80vh;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -399,13 +396,8 @@ footer form button {
   .hero-content {
     width: 100%;
   }
-  .image {
-    width: 100%;
-    padding-left: 70px;
-  }
-  .image-content {
-    width: 100%;
-    padding-left: 70px;
+  .row-cols {
+    height: 60vh !important;
   }
 }
 
@@ -431,6 +423,9 @@ footer form button {
     margin-top: 0;
     width: 60%;
     margin-left: 0;
+  }
+  .image-content {
+    text-align: center;
   }
 }
 
