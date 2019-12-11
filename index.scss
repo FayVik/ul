@@ -317,6 +317,14 @@ footer {
   .hero-content {
     width: 100%;
   }
+  .image {
+    width: 100%;
+    padding-left: 70px;
+  }
+  .image-content {
+    width: 100%;
+    padding-left: 70px;
+  }
 }
 @media screen and (max-width: 644px) {
   .section-3 {
@@ -349,5 +357,8 @@ footer {
     button {
       margin-top: 10px;
     }
+  }
+  .image-content {
+    margin-bottom: 100px;
   }
 }
