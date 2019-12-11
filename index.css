@@ -58,6 +58,136 @@ nav {
   height: 90vh;
 }
 
+.content .text-center .Services {
+  letter-spacing: 1.33px;
+  color: #4489ff;
+  opacity: 1;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.content .text-center h1 {
+  font-size: 30px;
+  letter-spacing: 0;
+  color: #535b6c;
+  opacity: 1;
+}
+
+.content .text-center p {
+  text-align: center;
+  letter-spacing: 0;
+  color: #66686a;
+  opacity: 1;
+}
+
+.content .image {
+  text-align: center;
+  min-height: 80vh;
+  padding-left: 40px;
+}
+
+.content .image img {
+  width: 100%;
+  min-height: 70vh;
+}
+
+.content .image-content {
+  min-height: 80vh;
+  padding-right: 60px;
+}
+
+.content .image-content .branding h5 {
+  color: #535b6c;
+  opacity: 1;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.content .image-content .branding h5 img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.content .image-content .branding p {
+  color: #66686a;
+  opacity: 1;
+  text-align: left;
+  font-size: 13px;
+}
+
+.content .image-content .digital h5 {
+  color: #535b6c;
+  opacity: 1;
+  font-weight: bolder;
+}
+
+.content .image-content .digital h5 img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.content .image-content .digital p {
+  color: #66686a;
+  opacity: 1;
+  text-align: left;
+  font-size: 13px;
+}
+
+.content .image-content .web h5 {
+  color: #535b6c;
+  opacity: 1;
+  font-weight: bolder;
+}
+
+.content .image-content .web h5 img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.content .image-content .web p {
+  color: #66686a;
+  opacity: 1;
+  text-align: left;
+  font-size: 13px;
+}
+
+.content .learn {
+  text-align: center;
+  margin-bottom: 80px;
+  font-weight: bolder;
+}
+
+.content .learn button {
+  border-radius: 30px;
+  background: none;
+  color: #4489ff;
+  opacity: 1;
+  border: 2px solid #4489ff;
+  padding: 10px 35px;
+  font-size: 13px;
+}
+
+.Services {
+  letter-spacing: 1.33px;
+  color: #4489ff;
+  opacity: 1;
+  text-align: center;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 0;
+  color: #535b6c;
+  opacity: 1;
+}
+
+p {
+  letter-spacing: 0;
+  color: #66686a;
+  opacity: 1;
+}
+
 .container .text-center .Services {
   letter-spacing: 1.33px;
   color: #4489ff;
@@ -139,73 +269,6 @@ nav {
   border-bottom: 1px solid #45b5e6;
 }
 
-.container .image {
-  text-align: center;
-}
-
-.container .image img {
-  width: 360px;
-  height: 80vh;
-}
-
-.container .image-content {
-  height: 80vh;
-}
-
-.container .image-content .branding h5 {
-  color: #535b6c;
-  opacity: 1;
-  font-weight: bolder;
-}
-
-.container .image-content .branding h5 img {
-  width: 30px;
-  margin-right: 10px;
-}
-
-.container .image-content .branding p {
-  color: #66686a;
-  opacity: 1;
-  text-align: left;
-  font-size: 13px;
-}
-
-.container .image-content .digital h5 {
-  color: #535b6c;
-  opacity: 1;
-  font-weight: bolder;
-}
-
-.container .image-content .digital h5 img {
-  width: 30px;
-  margin-right: 10px;
-}
-
-.container .image-content .digital p {
-  color: #66686a;
-  opacity: 1;
-  text-align: left;
-  font-size: 13px;
-}
-
-.container .image-content .web h5 {
-  color: #535b6c;
-  opacity: 1;
-  font-weight: bolder;
-}
-
-.container .image-content .web h5 img {
-  width: 30px;
-  margin-right: 10px;
-}
-
-.container .image-content .web p {
-  color: #66686a;
-  opacity: 1;
-  text-align: left;
-  font-size: 13px;
-}
-
 .container .learn {
   text-align: center;
   margin-bottom: 80px;
@@ -220,27 +283,6 @@ nav {
   border: 2px solid #4489ff;
   padding: 10px 35px;
   font-size: 13px;
-}
-
-.Services {
-  letter-spacing: 1.33px;
-  color: #4489ff;
-  opacity: 1;
-  text-align: center;
-  margin-top: 60px;
-}
-
-h1 {
-  font-size: 30px;
-  letter-spacing: 0;
-  color: #535b6c;
-  opacity: 1;
-}
-
-p {
-  letter-spacing: 0;
-  color: #66686a;
-  opacity: 1;
 }
 
 .section-3 {
@@ -344,6 +386,9 @@ footer form button {
 @media screen and (max-width: 991px) {
   footer {
     text-align: center;
+  }
+  .image img {
+    height: 80vh;
   }
 }
 

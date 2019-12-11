@@ -52,7 +52,7 @@ nav {
     height: 90vh;
   }
 }
-.container {
+.content {
   .text-center {
     .Services {
       letter-spacing: 1.33px;
@@ -74,71 +74,25 @@ nav {
       color: #66686a;
       opacity: 1;
     }
-    form {
-      margin-top: 80px;
-      margin-bottom: 100px;
-      text-align: justify;
-      padding-left: 50px;
-      label {
-        color: #66686a;
-        opacity: 1;
-        margin-top: 15px;
-      }
-      input {
-        width: 90%;
-        outline: none;
-        border: none;
-        border-bottom: 1px solid rgb(228, 228, 228);
-        &:focus {
-          border-bottom: 1px solid #45b5e6;
-        }
-      }
-      .submit {
-        width: 90%;
-        text-align: right;
-        margin-top: 30px;
-        button {
-          color: #4489ff;
-          opacity: 1;
-          background: none;
-          font-weight: bolder;
-          border: none;
-          font-size: 18px;
-        }
-        .fa-arrow-right {
-          color: #4489ff;
-          background: #a2c3fb;
-          opacity: 1;
-          padding: 10px 10px;
-          border-radius: 40px;
-        }
-      }
-      textarea {
-        width: 90%;
-        outline: none;
-        border: none;
-        border-bottom: 1px solid rgb(228, 228, 228);
-        &:focus {
-          border-bottom: 1px solid #45b5e6;
-        }
-        height: 20vh;
-      }
-    }
   }
   .image {
     text-align: center;
+    min-height: 80vh;
+    padding-left: 40px;
     img {
-      width: 360px;
-      height: 80vh;
+      width: 100%;
+      min-height: 70vh;
     }
   }
   .image-content {
-    height: 80vh;
+    min-height: 80vh;
+    padding-right: 60px;
     .branding {
       h5 {
         color: #535b6c;
         opacity: 1;
         font-weight: bolder;
+        margin: 0;
         img {
           width: 30px;
           margin-right: 10px;
@@ -218,6 +172,93 @@ p {
   letter-spacing: 0;
   color: #66686a;
   opacity: 1;
+}
+.container {
+  .text-center {
+    .Services {
+      letter-spacing: 1.33px;
+      color: #4489ff;
+      opacity: 1;
+      text-align: center;
+      margin-top: 60px;
+    }
+    h1 {
+      font-size: 30px;
+      letter-spacing: 0;
+      color: #535b6c;
+      opacity: 1;
+    }
+    p {
+      text-align: center;
+      letter-spacing: 0;
+      color: #66686a;
+      opacity: 1;
+    }
+    form {
+      margin-top: 80px;
+      margin-bottom: 100px;
+      text-align: justify;
+      padding-left: 50px;
+      label {
+        color: #66686a;
+        opacity: 1;
+        margin-top: 15px;
+      }
+      input {
+        width: 90%;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid rgb(228, 228, 228);
+        &:focus {
+          border-bottom: 1px solid #45b5e6;
+        }
+      }
+      .submit {
+        width: 90%;
+        text-align: right;
+        margin-top: 30px;
+        button {
+          color: #4489ff;
+          opacity: 1;
+          background: none;
+          font-weight: bolder;
+          border: none;
+          font-size: 18px;
+        }
+        .fa-arrow-right {
+          color: #4489ff;
+          background: #a2c3fb;
+          opacity: 1;
+          padding: 10px 10px;
+          border-radius: 40px;
+        }
+      }
+      textarea {
+        width: 90%;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid rgb(228, 228, 228);
+        &:focus {
+          border-bottom: 1px solid #45b5e6;
+        }
+        height: 20vh;
+      }
+    }
+  }
+  .learn {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: bolder;
+    button {
+      border-radius: 30px;
+      background: none;
+      color: #4489ff;
+      opacity: 1;
+      border: 2px solid #4489ff;
+      padding: 10px 35px;
+      font-size: 13px;
+    }
+  }
 }
 .section-3 {
   margin-top: 60px;
@@ -306,6 +347,11 @@ footer {
 @media screen and (max-width: 991px) {
   footer {
     text-align: center;
+  }
+  .image {
+    img {
+      height: 80vh;
+    }
   }
 }
 @media screen and (max-width: 767px) {
