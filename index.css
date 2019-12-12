@@ -63,7 +63,6 @@ nav {
   color: #4489ff;
   opacity: 1;
   text-align: center;
-  margin-top: 50px;
 }
 
 .content .text-center h1 {
@@ -393,9 +392,10 @@ footer form button {
   }
   .hero-content {
     width: 100%;
+    min-height: 20vh;
   }
   .row-cols {
-    height: 70vh !important;
+    min-height: 20vh !important;
   }
 }
 

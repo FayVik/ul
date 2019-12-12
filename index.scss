@@ -59,7 +59,6 @@ nav {
       color: #4489ff;
       opacity: 1;
       text-align: center;
-      margin-top: 50px;
     }
     h1 {
       font-size: 30px;
@@ -352,9 +351,10 @@ footer {
   }
   .hero-content {
     width: 100%;
+    min-height: 20vh;
   }
   .row-cols {
-    height: 70vh !important;
+    min-height: 20vh !important;
   }
 }
 @media screen and (max-width: 644px) {
