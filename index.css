@@ -63,6 +63,7 @@ nav {
   color: #4489ff;
   opacity: 1;
   text-align: center;
+  margin-top: 50px;
 }
 
 .content .text-center h1 {
@@ -394,7 +395,7 @@ footer form button {
     width: 100%;
   }
   .row-cols {
-    height: 60vh !important;
+    height: 70vh !important;
   }
 }
 
