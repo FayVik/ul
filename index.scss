@@ -351,10 +351,9 @@ footer {
   }
   .hero-content {
     width: 100%;
-    min-height: 20vh;
   }
   .row-cols {
-    min-height: 20vh !important;
+    height: 60vh !important;
   }
 }
 @media screen and (max-width: 644px) {

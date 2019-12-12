@@ -392,10 +392,9 @@ footer form button {
   }
   .hero-content {
     width: 100%;
-    min-height: 20vh;
   }
   .row-cols {
-    min-height: 20vh !important;
+    height: 60vh !important;
   }
 }
 
